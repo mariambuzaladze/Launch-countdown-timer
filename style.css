@@ -60,3 +60,16 @@ main {
   letter-spacing: 2.96px;
   color: #8385a9;
 }
+
+footer {
+  width: 100vh;
+  height: 168px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  background-image: url(./images/pattern-hills.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
