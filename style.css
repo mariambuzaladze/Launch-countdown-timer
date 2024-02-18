@@ -6,3 +6,15 @@
   box-sizing: border-box;
   font-family: "Red Hat Text";
 }
+
+body {
+  height: 100vh;
+  background-color: #261a2d;
+  background-image: url(./images/bg-stars.svg);
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
