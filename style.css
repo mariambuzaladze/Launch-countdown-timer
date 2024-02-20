@@ -110,5 +110,38 @@ footer {
 }
 
 .icons:hover {
-  color: pink;
+  background-color: #fb5e84;
+}
+
+@media screen and (min-width: 1440px) {
+  h1 {
+    font-size: 22px;
+    letter-spacing: 7.5px;
+  }
+
+  .top-div {
+    width: 148px;
+    height: 70px;
+  }
+
+  .bottom-div {
+    width: 148px;
+    height: 70px;
+  }
+
+  .middle-div {
+    top: 64px;
+    left: -4.5px;
+    gap: 66.5px;
+  }
+
+  .circle {
+    width: 12px;
+    height: 12px;
+  }
+
+  .text {
+    font-size: 14px;
+    letter-spacing: 5.92px;
+  }
 }
