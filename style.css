@@ -9,6 +9,12 @@
 
 body {
   height: 100vh;
+  /* background: linear-gradient(
+    180deg,
+    #1d1e28 0.12%,
+    #261c2d 94.84%,
+    #261a2d 100%
+  ); */
   background-color: #261a2d;
   background-image: url(./images/bg-stars.svg);
   background-repeat: no-repeat;
@@ -17,7 +23,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 142px 24px 0 24px;
   gap: 54px;
 }
 
@@ -26,11 +31,13 @@ h1 {
   letter-spacing: 6.14px;
   text-align: center;
   color: #fff;
+  margin: 142px 24px 0 24px;
 }
 
 main {
   display: flex;
   gap: 16px;
+  margin: 0 24px 0 24px;
 }
 
 .content {
@@ -40,12 +47,35 @@ main {
   gap: 14px;
 }
 
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
 .top-div {
   width: 70px;
   height: 33px;
   opacity: 0.15;
   border-radius: 4px;
-  background-color: #000;
+  background-color: #000000;
+}
+
+.middle-div {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 30px;
+  left: -1.5px;
+  gap: 31px;
+}
+
+.circle {
+  background-color: #191a23;
+  width: 6px;
+  height: 6px;
+  border-radius: 15px;
 }
 
 .bottom-div {
@@ -63,7 +93,7 @@ main {
 }
 
 footer {
-  width: 100vh;
+  width: 100%;
   height: 168px;
 
   display: flex;
@@ -73,4 +103,12 @@ footer {
   background-image: url(./images/pattern-hills.svg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.icons {
+  cursor: pointer;
+}
+
+.icons:hover {
+  color: pink;
 }
