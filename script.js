@@ -1,9 +1,9 @@
 const divs = document.getElementsByClassName("number");
 
-let currentTime = new Date().getTime();
-let finishTime = new Date("Septemner 25, 2024 12:00:00").getTime();
-
 function timeDifference() {
+  let currentTime = new Date().getTime();
+  let finishTime = new Date("Septemner 25, 2024 12:00:00").getTime();
+
   let time = finishTime - currentTime;
 
   let days = Math.floor(time / (1000 * 60 * 60 * 24));
