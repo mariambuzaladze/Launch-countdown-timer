@@ -116,10 +116,11 @@ footer {
 
 .icons {
   cursor: pointer;
+  transition: 0.5s;
 }
 
-.icons:hover {
-  background-color: #fb5e84;
+.icons:hover path {
+  fill: #fb5e84;
 }
 
 @media screen and (min-width: 1440px) {
